@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Informasi Pendaftar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="detail-container">
+        <h1>Detail Informasi Pendaftar</h1>
+        <div class="box">
+            <table>
+                <tr>
+                    <th>Nama</th>
+                    <td>
+                        <script>
+                            var nama = decodeURIComponent(location.search.split('=')[1].split('&')[0]).replace(/\+/g, ' ');
+                            document.write(nama);
+                        </script>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td>
+                        <script>
+                            var email = decodeURIComponent(location.search.split('=')[2].split('&')[0]).replace(/\+/g, ' ');
+                            document.write(email);
+                        </script>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Nomor Telepon</th>
+                    <td>
+                        <script>
+                            var telp = decodeURIComponent(location.search.split('=')[3]).replace(/\+/g, ' ');
+                            document.write(telp);
+                        </script>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <button class="redirect-button" onclick="window.location.href='https://adityasuhendar.github.io/htdocs/task_html/';">
+            Kunjungi Website Saya
+        </button>
+    </div>
+</body>
+</html>
