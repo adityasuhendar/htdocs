@@ -1,5 +1,8 @@
-Kumpulan Tugas Pemrograman Web
+# Kumpulan Tugas Pemrograman Web
 
-Nama  : Aditya Wahyu Suhendar
-NIM   : 122140235
-Kelas : RB
+Repository ini berisi kumpulan tugas Pemrograman Web yang telah saya kerjakan.
+
+## Identitas
+- **Nama**  : Aditya Wahyu Suhendar
+- **NIM**   : 122140235
+- **Kelas** : RB
