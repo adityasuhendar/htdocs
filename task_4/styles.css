@@ -1,0 +1,100 @@
+/* ADITYA WAHYU SUHENDAR */
+/* 122140235 */
+/* Pemrograman Web RB */
+/* Tugas 4 */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px 0; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.form-container {
+    background: white;
+    padding: 30px 35px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #4a90e2;
+    margin-bottom: 40px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button#submit {
+    background-color: #4a90e2;
+    color: white;
+}
+
+button#submit:hover {
+    background-color: #357ab7;
+}
+
+button#reset {
+    background-color: #e74c3c;
+    color: white;
+    margin-top: 10px;
+}
+
+button#reset:hover {
+    background-color: #c0392b;
+}
+
+.form-result {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+    white-space: pre-wrap;
+    font-size: 14px;
+}
+
+pre.form-result {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    overflow: auto;
+}
