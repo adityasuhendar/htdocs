@@ -20,7 +20,7 @@ $data = $_SESSION['data'];
 </head>
 <body>
     <div class="form-container">
-        <h2>Hasil Pendaftaran</h2>
+        <h2>Hasil Penginputan</h2>
         <div class="form-group">
             <label>Nama Lengkap:</label>
             <div class="form-result"><?= htmlspecialchars($data['name']); ?></div>
